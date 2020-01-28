@@ -4,10 +4,57 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/libertinus-serif" type="text/css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <style type="text/css">
+    .footer {
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+    </style>
+  
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000060;">
@@ -40,7 +87,7 @@
 	 <h2></h2>
 	 <h2>I am a Content Writer/Editor, living in Bangalore!</h2>
 	 <p>I have been writing ever since I remember!</p>
-	 <p>I also like Art and Photography. Currently, I am learning to code.</p>
+	 <p>I also like Art and Photography. Currently, I am working at an EdTech company. I am also learning to code.</p>
 	 <button type="button" class="btn btn-primary btn-lg" style="background-color: #000060;">Say Hello!</button>
 	</div>
   </div>
@@ -51,7 +98,9 @@
 <div class="jumbotron">
 <div class="container" style="background-color: white; padding-top: 60px; padding-bottom: 60px; color: #000060;">
   <center><h1>About</h1></center>
-  <p>This part is inside a .container class.</p> 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
   <p>The .container class provides a responsive fixed width container.</p>
   <p>Resize the browser window to see that its width (max-width) will change at different breakpoints.</p>
 </div>
@@ -75,6 +124,49 @@
 </div>
 </div>
 
-   
+
+<div class="jumbotron">
+<div class="container" style="background-color: white; padding-top: 60px; padding-bottom: 60px; color: #000060;">
+  <center><h1>Projects</h1></center>
+  <div class="card-columns">
+    <div class="card" style="background-color: #000060; color: white;">
+      <div class="card-body text-center">
+        <h3 class="card-text">Dummy Project 1</h3>
+		<p class="card-text"> Lorem Ipsum Dolor</p>
+		<button type="button" class="btn btn-light">Click Here</button>
+      </div>
+    </div>
+    <div class="card" style="background-color: #000060; color: white;">
+      <div class="card-body text-center">
+        <h3 class="card-text">Dummy Project 2</h3>
+		<p class="card-text">Lorem Ipsum Dolor</p>
+		<button type="button" class="btn btn-light">Click Here</button>
+      </div>
+    </div>
+    <div class="card" style="background-color: #000060; color: white;">
+      <div class="card-body text-center">
+        <h3 class="card-text">Dummy Project 3</h3>
+		<p class="card-text">Lorem Ipsum Dolor</p>
+		<button type="button" class="btn btn-light">Click Here</button>
+      </div>
+    </div>
+</div>
+</div> 
+
+<div class="jumbotron">
+ <div class="container" style="background-color: white; padding-top: 60px; padding-bottom: 60px; color: #000060;">
+  <center><h1>Follow Me</h1></center>
+ 
+ 
+ <div class="footer">
+      <body><a href="https://www.facebook.com/prritam" class="fa fa-facebook"></a>
+      <a href="https://www.twitter.com/prritam" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/murphyable/" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a></body>
+      <p>Copyright 2019 Pritam</p>
+</div>
+</div>
+
+</div>  
 </body>
 </html>
